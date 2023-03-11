@@ -1,0 +1,52 @@
+* {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.container {
+  border: 5px solid black;
+  width: 1000px;
+  margin: 50px auto;
+  box-sizing: border-box;
+  padding: 10px;
+  border-radius: 100px;
+  background-color: aquamarine;
+}
+
+header {
+  background-color: purple;
+  padding: 40px;
+}
+
+main {
+  background-color: burlywood;
+  padding: 20px;
+  flex: 1;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: gray;
+  padding: 20px;
+}
+
+aside {
+  background-color: aqua;
+  padding: 40px;
+}
+
+nav {
+  background-color: blue;
+  padding: 30px;
+}
+
+.content {
+  display: flex;
+}
+
+.sidebar {
+  flex: 1;
+}
